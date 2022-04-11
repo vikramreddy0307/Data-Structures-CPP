@@ -1,6 +1,6 @@
 // C++ program to implement the
 // above approach
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 // Function to print all the
