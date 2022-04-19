@@ -1,10 +1,6 @@
 #include <cmath>
 #include<string>
-#include <cstdio>
-#include <vector>
 #include <iostream>
-#include <algorithm>
-#include <climits>
 using namespace std;
 
 int digitSum(long long int n)
