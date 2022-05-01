@@ -34,7 +34,10 @@ int superDigit(string n, int k) {
 
 }
 int main(){
-    int res=superDigit("1000000000", 1089);
-    cout<<res<<endl;
+    // int res=superDigit("1000000000", 1089);
+    // cout<<res<<endl;
+    bool val;
+    val="524">"421";
+    cout<<val<<endl;
 }
 

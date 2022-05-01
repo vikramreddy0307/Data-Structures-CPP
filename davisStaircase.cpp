@@ -17,6 +17,7 @@ int totalWays(vector<int> steps,int total,int N,long long int cnt)
     if(total==N)
     {
         int max=1e+7;
+        
         return (cnt+1)%max;
     }
     if((N-total)>=1)
@@ -52,27 +53,9 @@ int stepPerms(int n) {
 
 int main()
 {
-    ofstream fout(getenv("OUTPUT_PATH"));
+    cout<<stepPerms(10)<<endl;
 
-    string s_temp;
-    getline(cin, s_temp);
-
-    int s = stoi(ltrim(rtrim(s_temp)));
-
-    for (int s_itr = 0; s_itr < s; s_itr++) {
-        string n_temp;
-        getline(cin, n_temp);
-
-        int n = stoi(ltrim(rtrim(n_temp)));
-
-        int res = stepPerms(n);
-
-        fout << res << "\n";
-    }
-
-    fout.close();
-
-    return 0;
+      
 }
 /*
 int stepPerms(int n) {
