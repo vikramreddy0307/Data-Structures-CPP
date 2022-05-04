@@ -5,6 +5,7 @@
         "algorithm": "cpp",
         "limits": "cpp",
         "utility": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "vector": "cpp"
     }
 }
